@@ -1,0 +1,36 @@
+.header-container {
+    height: 10%;
+    
+}
+
+.nav {
+    width: 80%;
+    height: 50px;
+    background-color: #0F0F0F;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    z-index: 1;
+
+    &__logo {
+        width: 30%;
+    }
+
+    &__list {
+        width: 70%;
+        height: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    &__element {
+        width: 25%;
+        height: 100%;
+        margin: 0px;
+        text-decoration: none;
+        color: white;
+    }
+    &__element:hover {
+        border-bottom: 1px solid white;
+    }
+}

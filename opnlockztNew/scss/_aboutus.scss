@@ -1,0 +1,36 @@
+.aboutus {
+
+    &__block {
+        display: flex;
+    }
+
+    &__content {
+        padding-right: 5%;
+    }
+
+    &__photo {
+        width: 40%;
+    }
+}
+.card {
+    width: 20%;
+    // background-color:  #0F0F0F;
+    margin-left: 10%;
+    font-size: 15px;
+    padding: 1%;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+
+    &__icon {
+        width: 100%;
+        height: auto;
+        fill: white;
+    }
+}
+
+// .card:hover {
+//     width: 30%;
+    
+// }

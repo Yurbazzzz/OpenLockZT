@@ -1,0 +1,23 @@
+.main {
+    width: 100%;
+    background-image: url(../img/titleBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 18%;
+    padding-bottom: 11%;
+
+
+    &__title {
+        width: 20%;
+        margin: 0% 40% 10% 20%;
+
+    }
+
+    &__subtitle {
+        width: 40%;
+        margin-left: 20%;
+        margin-right: 30%;
+        text-align: left;
+    }
+}

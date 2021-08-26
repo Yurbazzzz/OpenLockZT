@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px){
+    .nav__element {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 656px){
+
+}
+
+@media screen and (max-width: 530px){
+    .nav__logo {
+            font-size: medium;
+        }
+}
+
+@media screen and (min-width: 426px){
+
+    .contact {
+        display: flex;
+    
+        &__content {
+            width: 50%;
+        }
+
+
+        &__button {
+            width: 50%;
+        }
+
+  }
+}
+
+@media screen and (max-width: 426px){
+    .sidenav {
+        display: block;
+      }
+    
+      .opnBtn {
+        display: block;
+        margin-left: 200px;
+      }
+    
+      .nav__list {
+        display: none;
+      }
+    
+    .aboutus__photo {
+        width: 40%;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .opnBtn {
+        margin-left: 165px;
+    }
+}
